@@ -1,1 +1,15 @@
 # CodeZineLaravelFrontend
+
+## 各プロジェクトの起動方法
+あらかじめ`.env.example`をファイルごとコピー&ペースとして`.env`ファイルとする。その後、プロジェクトフォルダで以下のコマンドを実行する。
+```
+% composer install
+% php artisan key:generate
+% php artisan migrate
+```
+migrateコマンドで「Would you like to create it?」と質問されたら、yesを選択の上、リターンキーを押下する。
+
+コマンドの実行が終了したら、以下のコマンドでサーバを起動する。
+```
+% php artisan serve
+```
