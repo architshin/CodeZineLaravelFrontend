@@ -1,7 +1,7 @@
 # CodeZineLaravelFrontend
 
 ## 各プロジェクトの起動方法
-あらかじめ`.env.example`をファイルごとコピー&ペースとして`.env`ファイルとする。その後、プロジェクトフォルダで以下のコマンドを実行する。なお、Windows環境では、ccomposerコマンドを実行した際に、pcntlに関連したエラーが表示される場合がありますが、問題なく実行できます。
+あらかじめ`.env.example`をファイルごとコピー&ペースとして`.env`ファイルとする。その後、プロジェクトフォルダで以下のコマンドを実行する。
 ```
 % composer install
 % php artisan key:generate
@@ -16,4 +16,8 @@ migrateコマンドで「Would you like to create it?」と質問されたら、
 コマンドの実行が終了したら、以下のコマンドでサーバを起動する。
 ```
 % php artisan serve
+```
+なお、サーバは、以下のコマンドでも起動できる。ただし、Windows環境では、pcntlに関連したエラーが表示される場合があるが、問題なく実行できる。
+```
+% composer run dev
 ```
