@@ -1,5 +1,9 @@
 # CodeZineLaravelFrontend
 
+CodeZine「LivewireとInertiaによるLaravelのフロントエンド的画面作成入門」のサンプル。
+
+https://codezine.jp/article/corner/1048
+
 ## 各プロジェクトの起動方法
 あらかじめ`.env.example`をファイルごとコピー&ペースとして`.env`ファイルとする。その後、プロジェクトフォルダで以下のコマンドを実行する。
 ```
