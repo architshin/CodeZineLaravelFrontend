@@ -9,7 +9,7 @@ https://codezine.jp/article/corner/1048
 ```
 % composer install
 % php artisan key:generate
-% php artisan migrate
+% php artisan migrate --seed
 ```
 migrateコマンドで「Would you like to create it?」と質問されたら、yesを選択の上、リターンキーを押下する。さらに、以下のコマンドも実行する。
 ```
